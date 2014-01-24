@@ -21,3 +21,10 @@ Run semai-api commmand to start the server:
 ```bash
 $ semai-api -p 8000
 ```
+
+## API Reference
+
+* **/search/:keyword:** Search poems & authors
+* **/authors** List all authors
+* **/author/:author:** "List all poems of given author
+* **/author/:author:/:title:** Outputs specified poem
