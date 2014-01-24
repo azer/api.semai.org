@@ -1,0 +1,34 @@
+{
+  "name": "semai-api",
+  "version": "0.0.0",
+  "description": "Berraksular.com API Server",
+  "main": "index.js",
+  "bin": {
+    "semai-api": "./bin/semai-api"
+  },
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*",
+    "glob": "*"
+  },
+  "keywords": [
+    "api",
+    "poetry",
+    "poem",
+    "berraksular",
+    "turkish"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/berraksular-api.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "json-resources": "0.0.1",
+    "level-json": "0.0.2",
+    "optimist": "~0.6.0"
+  }
+}
