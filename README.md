@@ -16,9 +16,11 @@ $ tar -xvvf db.tar.gz
 
 ## Usage
 
-Run semai-api commmand to start the server:
+Run `semai-api` to start the server:
 
 ```bash
+$ cd semai-api
+$ npm link
 $ semai-api -p 8000
 ```
 
